@@ -11,7 +11,7 @@ on:
 env:
   GITHUB_NAME: aniaan
   GITHUB_EMAIL: fjn.aniaan@gmail.com
-  STARRED_NUM: 3
+  STARRED_NUM: 0
 
 jobs:
   build:
@@ -24,6 +24,8 @@ jobs:
         with:
           # we need set GITHUB_TOKEN
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          STARRED_NUM: ${{ env.STARRED_NUM }}
+
 
       - name: Push README
         run: |
