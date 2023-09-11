@@ -11,7 +11,7 @@ on:
 env:
   GITHUB_NAME: aniaan
   GITHUB_EMAIL: fjn.aniaan@gmail.com
-  STARRED_NUM: 10
+  STARRED_NUM: 0
 
 jobs:
   build:
