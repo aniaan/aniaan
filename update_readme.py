@@ -17,7 +17,12 @@ from collections import defaultdict
 def fetch_user_contributions(username, token=None):
     """
     Fetch all repositories where the user has made contributions.
-    Returns a list of repositories with commit counts and languages.
+    Returns a list of repositories with contribution counts and languages.
+    
+    Note: Uses the GitHub Events API which provides recent user activity.
+    Counts are based on push events (commits) and PR events from the last ~90 events.
+    This provides a good approximation of recent contributions, though not a complete
+    historical count.
     """
     headers = {}
     if token:
@@ -41,26 +46,22 @@ def fetch_user_contributions(username, token=None):
             
             # Count commits per repository from events
             for event in events:
+                # All events are already for this user, so we know they're the actor
+                repo_name = event['repo']['name']
+                # Skip the user's own profile repository
+                if repo_name == f'{username}/{username}':
+                    continue
+                
                 if event['type'] == 'PushEvent':
-                    repo_name = event['repo']['name']
-                    # Skip the user's own profile repository
-                    if repo_name == f'{username}/{username}':
-                        continue
-                    
-                    # Count only commits by the user
+                    # Count commits in push events
                     commits = event.get('payload', {}).get('commits', [])
-                    user_commits = [c for c in commits if c.get('author', {}).get('name') == username or 
-                                   c.get('author', {}).get('email', '').startswith(username)]
-                    if user_commits:
-                        repo_stats[repo_name] += len(user_commits)
+                    if commits:
+                        repo_stats[repo_name] += len(commits)
                 
                 elif event['type'] == 'PullRequestEvent':
                     # Only count PR opened events to avoid double-counting
+                    # Note: This counts PRs, not commits, but shows activity level
                     if event.get('payload', {}).get('action') == 'opened':
-                        repo_name = event['repo']['name']
-                        # Skip the user's own profile repository
-                        if repo_name == f'{username}/{username}':
-                            continue
                         repo_stats[repo_name] += 1
         
         # Get repository details for each contributed repo
@@ -95,18 +96,19 @@ def fetch_user_contributions(username, token=None):
 def generate_contributions_table(contributions):
     """
     Generate a markdown table with contribution statistics.
+    Note: Counts are based on recent events and may include both commits and PRs.
     """
     if not contributions:
         return "No contributions found yet. Keep coding! 🚀"
     
-    table = "| Commits | Project | Language |\n"
-    table += "|---------|---------|----------|\n"
+    table = "| Contributions | Project | Language |\n"
+    table += "|---------------|---------|----------|\n"
     
     for contrib in contributions:
-        commits_link = f"[{contrib['commit_count']}]({contrib['commits_url']})"
+        contributions_link = f"[{contrib['commit_count']}]({contrib['commits_url']})"
         project_link = f"[{contrib['name']}]({contrib['url']})"
         language = contrib['language']
-        table += f"| {commits_link} | {project_link} | {language} |\n"
+        table += f"| {contributions_link} | {project_link} | {language} |\n"
     
     return table
 

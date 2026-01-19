@@ -7,7 +7,7 @@ I'm passionate about contributing to open source projects! Below you can find my
 
 No contributions found yet. Keep coding! 🚀
 
-<sub>Last updated: 2026-01-19 04:08:36 UTC</sub>
+<sub>Last updated: 2026-01-19 04:11:13 UTC</sub>
 
 <!-- CONTRIBUTION_STATS:END -->
 
@@ -21,7 +21,7 @@ This README is automatically updated daily with my latest open source contributi
 - 🎯 Can be triggered manually via GitHub Actions UI
 - 📊 Fetches my recent contributions from GitHub API
 - 📝 Updates the contribution table with:
-  - **Clickable commit counts** - Click the number to see all my commits in that project
+  - **Clickable contribution counts** - Shows recent commits & PRs; click to see all my commits
   - **Project names** - With links to the repositories
   - **Primary languages** - The main programming language used
 - 💾 Automatically commits changes back to this README
