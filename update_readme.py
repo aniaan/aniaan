@@ -183,15 +183,15 @@ def generate_contributions_table(contributions, username):
     if not contributions:
         return "No contributions found yet. Keep coding!"
 
-    table = "| PRs | Project | Stars | Language |\n"
-    table += "|-----|---------|-------|----------|\n"
+    table = "| Project | Language | Stars | PRs |\n"
+    table += "|---------|----------|-------|-----|\n"
 
     for contrib in contributions:
-        pr_link = f"[{contrib['pr_count']}]({contrib['pr_search_url']})"
         project_link = f"[{contrib['name']}]({contrib['url']})"
-        stars = format_stars(contrib['stars'])
         language = contrib['language']
-        table += f"| {pr_link} | {project_link} | {stars} | {language} |\n"
+        stars = format_stars(contrib['stars'])
+        pr_link = f"[{contrib['pr_count']}]({contrib['pr_search_url']})"
+        table += f"| {project_link} | {language} | {stars} | {pr_link} |\n"
 
     return table
 
