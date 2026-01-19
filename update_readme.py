@@ -21,7 +21,7 @@ def fetch_user_contributions(username, token=None):
     """
     headers = {}
     if token:
-        headers['Authorization'] = f'token {token}'
+        headers['Authorization'] = f'Bearer {token}'
     
     contributions = []
     repo_stats = defaultdict(int)
@@ -41,18 +41,26 @@ def fetch_user_contributions(username, token=None):
             
             # Count commits per repository from events
             for event in events:
-                if event['type'] in ['PushEvent', 'PullRequestEvent']:
+                if event['type'] == 'PushEvent':
                     repo_name = event['repo']['name']
                     # Skip the user's own profile repository
                     if repo_name == f'{username}/{username}':
                         continue
                     
-                    if event['type'] == 'PushEvent':
-                        # Count commits in push events
-                        commits = event.get('payload', {}).get('commits', [])
-                        repo_stats[repo_name] += len(commits)
-                    else:
-                        # Count PRs
+                    # Count only commits by the user
+                    commits = event.get('payload', {}).get('commits', [])
+                    user_commits = [c for c in commits if c.get('author', {}).get('name') == username or 
+                                   c.get('author', {}).get('email', '').startswith(username)]
+                    if user_commits:
+                        repo_stats[repo_name] += len(user_commits)
+                
+                elif event['type'] == 'PullRequestEvent':
+                    # Only count PR opened events to avoid double-counting
+                    if event.get('payload', {}).get('action') == 'opened':
+                        repo_name = event['repo']['name']
+                        # Skip the user's own profile repository
+                        if repo_name == f'{username}/{username}':
+                            continue
                         repo_stats[repo_name] += 1
         
         # Get repository details for each contributed repo

@@ -7,7 +7,7 @@ I'm passionate about contributing to open source projects! Below you can find my
 
 No contributions found yet. Keep coding! 🚀
 
-<sub>Last updated: 2026-01-19 04:05:55 UTC</sub>
+<sub>Last updated: 2026-01-19 04:08:36 UTC</sub>
 
 <!-- CONTRIBUTION_STATS:END -->
 
@@ -17,7 +17,8 @@ No contributions found yet. Keep coding! 🚀
 
 This README is automatically updated daily with my latest open source contribution statistics using GitHub Actions. The workflow:
 
-- 🔄 Runs daily at midnight UTC (and on every push to main/master)
+- 🔄 Runs daily at midnight UTC
+- 🎯 Can be triggered manually via GitHub Actions UI
 - 📊 Fetches my recent contributions from GitHub API
 - 📝 Updates the contribution table with:
   - **Clickable commit counts** - Click the number to see all my commits in that project
