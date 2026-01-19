@@ -77,21 +77,25 @@ def fetch_user_contributions(username, token=None):
                 repo_response.raise_for_status()
                 repo_data = repo_response.json()
                 
+                # Build commits URL from the repository's html_url to handle GitHub Enterprise
+                base_url = repo_data['html_url']
+                commits_url = f"{base_url}/commits?author={username}"
+                
                 contributions.append({
                     'name': repo_name,
-                    'url': repo_data['html_url'],
+                    'url': base_url,
                     'language': repo_data.get('language') or 'Unknown',
                     'commit_count': commit_count,
-                    'commits_url': f"https://github.com/{repo_name}/commits?author={username}"
+                    'commits_url': commits_url
                 })
-            except Exception as e:
+            except (requests.RequestException, requests.HTTPError, KeyError) as e:
                 print(f"Warning: Could not fetch details for {repo_name}: {e}", file=sys.stderr)
                 continue
         
         # Sort by commit count (descending)
         contributions.sort(key=lambda x: x['commit_count'], reverse=True)
         
-    except Exception as e:
+    except (requests.RequestException, requests.ConnectionError, requests.Timeout) as e:
         print(f"Error fetching contributions: {e}", file=sys.stderr)
         return []
     
