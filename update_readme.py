@@ -20,9 +20,14 @@ def fetch_user_contributions(username, token=None):
     Returns a list of repositories with contribution counts and languages.
     
     Note: Uses the GitHub Events API which provides recent user activity.
-    Counts are based on push events (commits) and PR events from the last ~90 events.
-    This provides a good approximation of recent contributions, though not a complete
-    historical count.
+    The script fetches up to 90 events (3 pages × 30 events per page) from the
+    user's public event timeline. The GitHub Events API stores up to 300 events
+    and retains them for 90 days. This provides a snapshot of recent contributions
+    rather than a complete historical count.
+    
+    Counts include:
+    - Commits from PushEvents (counted individually)
+    - Opened pull requests (counted as 1 contribution each)
     """
     headers = {}
     if token:
@@ -96,7 +101,8 @@ def fetch_user_contributions(username, token=None):
 def generate_contributions_table(contributions):
     """
     Generate a markdown table with contribution statistics.
-    Note: Counts are based on recent events and may include both commits and PRs.
+    Note: Counts include commits from PushEvents (counted individually) and 
+    opened PRs (counted as 1 contribution each).
     """
     if not contributions:
         return "No contributions found yet. Keep coding! 🚀"
