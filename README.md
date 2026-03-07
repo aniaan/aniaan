@@ -22,10 +22,10 @@
 | [messense/jieba-rs](https://github.com/messense/jieba-rs) | Rust | 900 | [1](https://github.com/messense/jieba-rs/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
 | [asdf-community/asdf-golang](https://github.com/asdf-community/asdf-golang) | Shell | 638 | [1](https://github.com/asdf-community/asdf-golang/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
 | [preset-io/elasticsearch-dbapi](https://github.com/preset-io/elasticsearch-dbapi) | Python | 120 | [1](https://github.com/preset-io/elasticsearch-dbapi/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
-| [rfrancis/asdf-gradle](https://github.com/rfrancis/asdf-gradle) | Shell | 34 | [1](https://github.com/rfrancis/asdf-gradle/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
+| [rfrancis/asdf-gradle](https://github.com/rfrancis/asdf-gradle) | Shell | 35 | [1](https://github.com/rfrancis/asdf-gradle/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
 | [jdx/xx](https://github.com/jdx/xx) | Rust | 25 | [1](https://github.com/jdx/xx/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
 
 
-<sub>Last updated: 2026-03-06 00:32:15 UTC</sub>
+<sub>Last updated: 2026-03-07 00:27:16 UTC</sub>
 
 <!-- CONTRIBUTION_STATS:END -->
