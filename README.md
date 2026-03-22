@@ -19,13 +19,13 @@
 | [open-telemetry/opentelemetry-go](https://github.com/open-telemetry/opentelemetry-go) | Go | 6.3k | [1](https://github.com/open-telemetry/opentelemetry-go/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
 | [saghen/blink.cmp](https://github.com/saghen/blink.cmp) | Lua | 6.1k | [1](https://github.com/saghen/blink.cmp/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
 | [arco-design/arco-design](https://github.com/arco-design/arco-design) | TypeScript | 5.6k | [1](https://github.com/arco-design/arco-design/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
-| [messense/jieba-rs](https://github.com/messense/jieba-rs) | Rust | 902 | [1](https://github.com/messense/jieba-rs/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
+| [messense/jieba-rs](https://github.com/messense/jieba-rs) | Rust | 903 | [1](https://github.com/messense/jieba-rs/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
 | [asdf-community/asdf-golang](https://github.com/asdf-community/asdf-golang) | Shell | 637 | [1](https://github.com/asdf-community/asdf-golang/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
 | [preset-io/elasticsearch-dbapi](https://github.com/preset-io/elasticsearch-dbapi) | Python | 120 | [1](https://github.com/preset-io/elasticsearch-dbapi/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
 | [rfrancis/asdf-gradle](https://github.com/rfrancis/asdf-gradle) | Shell | 35 | [1](https://github.com/rfrancis/asdf-gradle/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
 | [jdx/xx](https://github.com/jdx/xx) | Rust | 25 | [1](https://github.com/jdx/xx/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
 
 
-<sub>Last updated: 2026-03-21 00:27:11 UTC</sub>
+<sub>Last updated: 2026-03-22 00:30:10 UTC</sub>
 
 <!-- CONTRIBUTION_STATS:END -->
