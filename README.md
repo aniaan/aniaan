@@ -15,7 +15,7 @@
 | [infiniflow/ragflow](https://github.com/infiniflow/ragflow) | Python | 76k | [1](https://github.com/infiniflow/ragflow/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
 | [vllm-project/vllm](https://github.com/vllm-project/vllm) | Python | 74k | [1](https://github.com/vllm-project/vllm/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
 | [binarywang/WxJava](https://github.com/binarywang/WxJava) | Java | 32k | [1](https://github.com/binarywang/WxJava/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
-| [lancedb/lancedb](https://github.com/lancedb/lancedb) | HTML | 9.6k | [1](https://github.com/lancedb/lancedb/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
+| [lancedb/lancedb](https://github.com/lancedb/lancedb) | HTML | 9.7k | [1](https://github.com/lancedb/lancedb/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
 | [open-telemetry/opentelemetry-go](https://github.com/open-telemetry/opentelemetry-go) | Go | 6.3k | [1](https://github.com/open-telemetry/opentelemetry-go/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
 | [saghen/blink.cmp](https://github.com/saghen/blink.cmp) | Lua | 6.1k | [1](https://github.com/saghen/blink.cmp/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
 | [arco-design/arco-design](https://github.com/arco-design/arco-design) | TypeScript | 5.6k | [1](https://github.com/arco-design/arco-design/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
@@ -26,6 +26,6 @@
 | [jdx/xx](https://github.com/jdx/xx) | Rust | 25 | [1](https://github.com/jdx/xx/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
 
 
-<sub>Last updated: 2026-03-25 00:29:47 UTC</sub>
+<sub>Last updated: 2026-03-26 00:32:06 UTC</sub>
 
 <!-- CONTRIBUTION_STATS:END -->
