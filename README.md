@@ -9,7 +9,7 @@
 | [easegress-io/easegress](https://github.com/easegress-io/easegress) | Go | 5.9k | [11](https://github.com/easegress-io/easegress/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
 | [yetone/avante.nvim](https://github.com/yetone/avante.nvim) | Lua | 17k | [9](https://github.com/yetone/avante.nvim/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
 | [pandas-dev/pandas](https://github.com/pandas-dev/pandas) | Python | 48k | [6](https://github.com/pandas-dev/pandas/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
-| [apache/superset](https://github.com/apache/superset) | TypeScript | 71k | [3](https://github.com/apache/superset/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
+| [apache/superset](https://github.com/apache/superset) | TypeScript | 72k | [3](https://github.com/apache/superset/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
 | [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) | Python | 162k | [1](https://github.com/AUTOMATIC1111/stable-diffusion-webui/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
 | [langgenius/dify](https://github.com/langgenius/dify) | TypeScript | 135k | [1](https://github.com/langgenius/dify/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
 | [infiniflow/ragflow](https://github.com/infiniflow/ragflow) | Python | 76k | [1](https://github.com/infiniflow/ragflow/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
@@ -26,6 +26,6 @@
 | [jdx/xx](https://github.com/jdx/xx) | Rust | 26 | [1](https://github.com/jdx/xx/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
 
 
-<sub>Last updated: 2026-03-31 00:32:34 UTC</sub>
+<sub>Last updated: 2026-04-01 00:35:42 UTC</sub>
 
 <!-- CONTRIBUTION_STATS:END -->
