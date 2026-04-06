@@ -11,7 +11,7 @@
 | [pandas-dev/pandas](https://github.com/pandas-dev/pandas) | Python | 48k | [6](https://github.com/pandas-dev/pandas/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
 | [apache/superset](https://github.com/apache/superset) | TypeScript | 72k | [3](https://github.com/apache/superset/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
 | [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) | Python | 162k | [1](https://github.com/AUTOMATIC1111/stable-diffusion-webui/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
-| [langgenius/dify](https://github.com/langgenius/dify) | TypeScript | 135k | [1](https://github.com/langgenius/dify/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
+| [langgenius/dify](https://github.com/langgenius/dify) | TypeScript | 136k | [1](https://github.com/langgenius/dify/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
 | [infiniflow/ragflow](https://github.com/infiniflow/ragflow) | Python | 77k | [1](https://github.com/infiniflow/ragflow/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
 | [vllm-project/vllm](https://github.com/vllm-project/vllm) | Python | 75k | [1](https://github.com/vllm-project/vllm/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
 | [binarywang/WxJava](https://github.com/binarywang/WxJava) | Java | 32k | [1](https://github.com/binarywang/WxJava/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
@@ -26,6 +26,6 @@
 | [jdx/xx](https://github.com/jdx/xx) | Rust | 26 | [1](https://github.com/jdx/xx/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
 
 
-<sub>Last updated: 2026-04-05 00:33:45 UTC</sub>
+<sub>Last updated: 2026-04-06 00:33:41 UTC</sub>
 
 <!-- CONTRIBUTION_STATS:END -->
