@@ -7,7 +7,7 @@
 | Project | Language | Stars | PRs |
 |---------|----------|-------|-----|
 | [easegress-io/easegress](https://github.com/easegress-io/easegress) | Go | 5.9k | [11](https://github.com/easegress-io/easegress/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
-| [yetone/avante.nvim](https://github.com/yetone/avante.nvim) | Lua | 17k | [9](https://github.com/yetone/avante.nvim/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
+| [yetone/avante.nvim](https://github.com/yetone/avante.nvim) | Lua | 18k | [9](https://github.com/yetone/avante.nvim/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
 | [pandas-dev/pandas](https://github.com/pandas-dev/pandas) | Python | 49k | [6](https://github.com/pandas-dev/pandas/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
 | [apache/superset](https://github.com/apache/superset) | TypeScript | 73k | [3](https://github.com/apache/superset/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | TypeScript | 380k | [1](https://github.com/openclaw/openclaw/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
@@ -20,12 +20,12 @@
 | [open-telemetry/opentelemetry-go](https://github.com/open-telemetry/opentelemetry-go) | Go | 6.4k | [1](https://github.com/open-telemetry/opentelemetry-go/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
 | [saghen/blink.cmp](https://github.com/saghen/blink.cmp) | Lua | 6.4k | [1](https://github.com/saghen/blink.cmp/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
 | [arco-design/arco-design](https://github.com/arco-design/arco-design) | TypeScript | 5.6k | [1](https://github.com/arco-design/arco-design/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
-| [messense/jieba-rs](https://github.com/messense/jieba-rs) | Rust | 954 | [1](https://github.com/messense/jieba-rs/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
-| [asdf-community/asdf-golang](https://github.com/asdf-community/asdf-golang) | Shell | 646 | [1](https://github.com/asdf-community/asdf-golang/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
+| [messense/jieba-rs](https://github.com/messense/jieba-rs) | Rust | 955 | [1](https://github.com/messense/jieba-rs/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
+| [asdf-community/asdf-golang](https://github.com/asdf-community/asdf-golang) | Shell | 645 | [1](https://github.com/asdf-community/asdf-golang/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
 | [rfrancis/asdf-gradle](https://github.com/rfrancis/asdf-gradle) | Shell | 36 | [1](https://github.com/rfrancis/asdf-gradle/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
 | [jdx/xx](https://github.com/jdx/xx) | Rust | 30 | [1](https://github.com/jdx/xx/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
 
 
-<sub>Last updated: 2026-06-25 00:50:35 UTC</sub>
+<sub>Last updated: 2026-06-26 00:52:26 UTC</sub>
 
 <!-- CONTRIBUTION_STATS:END -->
