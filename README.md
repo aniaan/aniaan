@@ -1,5 +1,8 @@
+
+
 ## Hi there
 
+*Contribution stats are automatically updated daily at 00:00 UTC via GitHub Actions.*
 
 <!-- CONTRIBUTION_STATS:START -->
 ## Open Source Contributions
