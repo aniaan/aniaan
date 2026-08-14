@@ -14,7 +14,7 @@
 | [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) | Python | 164k | [1](https://github.com/AUTOMATIC1111/stable-diffusion-webui/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
 | [langgenius/dify](https://github.com/langgenius/dify) | TypeScript | 152k | [1](https://github.com/langgenius/dify/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
 | [vllm-project/vllm](https://github.com/vllm-project/vllm) | Python | 88k | [1](https://github.com/vllm-project/vllm/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
-| [infiniflow/ragflow](https://github.com/infiniflow/ragflow) | Go | 87k | [1](https://github.com/infiniflow/ragflow/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
+| [infiniflow/ragflow](https://github.com/infiniflow/ragflow) | Go | 88k | [1](https://github.com/infiniflow/ragflow/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
 | [binarywang/WxJava](https://github.com/binarywang/WxJava) | Java | 33k | [1](https://github.com/binarywang/WxJava/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
 | [lancedb/lancedb](https://github.com/lancedb/lancedb) | Rust | 11k | [1](https://github.com/lancedb/lancedb/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
 | [saghen/blink.cmp](https://github.com/saghen/blink.cmp) | Lua | 6.5k | [1](https://github.com/saghen/blink.cmp/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
@@ -27,6 +27,6 @@
 | [jdx/xx](https://github.com/jdx/xx) | Rust | 31 | [1](https://github.com/jdx/xx/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
 
 
-<sub>Last updated: 2026-08-13 01:50:35 UTC</sub>
+<sub>Last updated: 2026-08-14 01:48:30 UTC</sub>
 
 <!-- CONTRIBUTION_STATS:END -->
