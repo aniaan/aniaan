@@ -24,9 +24,9 @@
 | [asdf-community/asdf-golang](https://github.com/asdf-community/asdf-golang) | Shell | 645 | [1](https://github.com/asdf-community/asdf-golang/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
 | [preset-io/elasticsearch-dbapi](https://github.com/preset-io/elasticsearch-dbapi) | Python | 120 | [1](https://github.com/preset-io/elasticsearch-dbapi/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
 | [rfrancis/asdf-gradle](https://github.com/rfrancis/asdf-gradle) | Shell | 37 | [1](https://github.com/rfrancis/asdf-gradle/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
-| [jdx/xx](https://github.com/jdx/xx) | Rust | 34 | [1](https://github.com/jdx/xx/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
+| [jdx/xx](https://github.com/jdx/xx) | Rust | 33 | [1](https://github.com/jdx/xx/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
 
 
-<sub>Last updated: 2026-10-05 04:10:22 UTC</sub>
+<sub>Last updated: 2026-10-06 04:58:40 UTC</sub>
 
 <!-- CONTRIBUTION_STATS:END -->
