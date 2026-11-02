@@ -17,7 +17,7 @@
 | [infiniflow/ragflow](https://github.com/infiniflow/ragflow) | Go | 93k | [1](https://github.com/infiniflow/ragflow/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
 | [binarywang/WxJava](https://github.com/binarywang/WxJava) | Java | 33k | [1](https://github.com/binarywang/WxJava/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
 | [lancedb/lancedb](https://github.com/lancedb/lancedb) | Rust | 11k | [1](https://github.com/lancedb/lancedb/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
-| [saghen/blink.cmp](https://github.com/saghen/blink.cmp) | Lua | 6.6k | [1](https://github.com/saghen/blink.cmp/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
+| [saghen/blink.cmp](https://github.com/saghen/blink.cmp) | Lua | 6.7k | [1](https://github.com/saghen/blink.cmp/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
 | [open-telemetry/opentelemetry-go](https://github.com/open-telemetry/opentelemetry-go) | Go | 6.6k | [1](https://github.com/open-telemetry/opentelemetry-go/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
 | [arco-design/arco-design](https://github.com/arco-design/arco-design) | TypeScript | 5.8k | [1](https://github.com/arco-design/arco-design/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
 | [messense/jieba-rs](https://github.com/messense/jieba-rs) | Rust | 990 | [1](https://github.com/messense/jieba-rs/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
@@ -27,6 +27,6 @@
 | [jdx/xx](https://github.com/jdx/xx) | Rust | 35 | [1](https://github.com/jdx/xx/pulls?q=is%3Apr+is%3Amerged+author%3Aaniaan) |
 
 
-<sub>Last updated: 2026-11-01 04:30:17 UTC</sub>
+<sub>Last updated: 2026-11-02 04:32:33 UTC</sub>
 
 <!-- CONTRIBUTION_STATS:END -->
